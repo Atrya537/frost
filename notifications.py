@@ -10,8 +10,7 @@ while True:
     if cpu_usage > 25:
         notification.notify(
             title = 'CPU Usage Alert',
-            message = str(cpu_usage),
+            message = 'Your CPU usage looks high. You should close out any unneeded processes to decrease energy consumption',
             app_icon = None,
-            timeout = 2
+            timeout = 30
         )
-        time.sleep(5)
