@@ -12,5 +12,5 @@ while True:
             title = 'CPU Usage Alert',
             message = 'Your CPU usage looks high. You should close out any unneeded processes to decrease energy consumption',
             app_icon = None,
-            timeout = 30
+            timeout = 15
         )
