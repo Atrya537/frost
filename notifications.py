@@ -1,7 +1,6 @@
 import psutil
 from plyer import notification
 import math
-import time
 
 # The maximum threshold for cpu usage can be modified here
 max_usage_percent = 25
