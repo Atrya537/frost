@@ -1,12 +1,12 @@
 import psutil
-import os
 from plyer import notification
 import math
 import time
 
 while True:
     cpu_usage = math.floor(psutil.cpu_percent(3))
-
+    time.sleep(5)
+    
     if cpu_usage > 25:
         notification.notify(
             title = 'CPU Usage Alert',
